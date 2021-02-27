@@ -1,0 +1,42 @@
+{
+  "name": "internship",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.834.0",
+    "axios": "^0.19.2",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-cache-controller": "^1.1.0",
+    "express-jwt": "^5.3.3",
+    "fs": "0.0.1-security",
+    "html-pdf": "^2.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mimelib": "^0.3.1",
+    "moment": "^2.26.0",
+    "moment-timezone": "^0.5.31",
+    "mongoose": "^5.9.9",
+    "mongoose-unique-validator": "^2.0.3",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.4.17",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "nodemon": "^2.0.3",
+    "number-to-words": "^1.2.4",
+    "slugify": "^1.4.0",
+    "swagger-jsdoc": "^4.0.0",
+    "swagger-ui-express": "^4.1.4",
+    "textmagic-rest-client": "^1.0.10",
+    "urlencode": "^1.1.0"
+  }
+}
